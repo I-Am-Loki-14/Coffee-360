@@ -17,6 +17,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 25px;
+    position: fixed;
 }
 .logo{
     display: flex;
@@ -41,22 +42,13 @@ nav i{
     
 }
 
-.nav-links{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.nav-links a{
-    /* background-color: green; */
+
+   .nav-links a{
+    margin: 0 15px;
     color: #fff;
-    border-radius: 5px;
-    padding: 5px 13px;
-    margin: 0px 15px;
-}
-.nav-links a:hover{
-    background-color: rgba(218, 150, 102, 0.9);
-    transition: 0.3s;
-}
+   }
+
+
 .search > input{
     padding: 8px 20px;
     border-radius: 5px;
@@ -82,4 +74,64 @@ header{
     background: url(../img/pexels-chevanon-302901.jpg) no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+}
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 80px);
+    /* background-color: orange; */
+    padding: 0 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hero-content{
+    width: 500px;
+    text-align: start;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    backdrop-filter: none;
+    /* background-color: plum; */
+}
+.hero-content h1,p{
+    color: #fff;
+    margin: 15px 0;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #6D3624;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #916759;
+    transition: 0.3s;
+}
+.hero-img{
+    width: 100%;
+    min-height: auto;
+    /* background-color: palevioletred; */
+    padding:5px;
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+   
+}
+.hero-img-content{
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    /* background-color: plum; */
+}
+.hero-img-content p{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #222;
 }
