@@ -1,4 +1,9 @@
 @media(max-width:960px){
+    .swiper {
+            width: 100% !important;
+            height: 100%;
+            
+        }
     .nav-links a{
       display: none;
     }
@@ -59,6 +64,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
    }
+   
 }
 .menubar{
     display:none;

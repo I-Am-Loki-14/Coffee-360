@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -138,7 +139,7 @@ header{
 }
 .coffee-section{
     padding: 20px;
-    background-color: #dca7969e;
+    background-color: #ff700a3b;
    
 }
 .coffee-title {
@@ -234,3 +235,151 @@ header{
     align-items: center;
     margin: 2px 0;
 }
+
+/* coffee bean section  */
+.coffee-bean-section{
+    width: 100%;
+    min-height: 330px;
+    background-color: #dca7969e;
+    background: url(../img/coffee-img/coffee-beans.jpg) no-repeat;
+    background-position: 40% 60%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coffee-bean-content{
+    width: 400px;
+    /* height: 200px; */
+    /* background-color: goldenrod; */
+    padding: 30px 15px;
+    
+}
+.coffee-bean-content h1{
+    font-size: 2rem;
+    color: #6d3624;
+    font-weight: 600;
+}
+.btn-coffee-bean{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin: 15px 0;
+    cursor: pointer;
+    background-color: #6d3624;
+    color: #fff;
+}
+.btn-coffee-bean:hover{
+    background-color:#c46546;
+}
+/* customer section  */
+.customer-section{
+    width: 100%;
+    /* height: 330px; */
+    background: #ded6d6dc;
+    padding: 10px;
+}
+.customer-content{
+    /* background-color: green; */
+    text-align: center;
+    padding: 20px 0;
+}
+.customer-slider {
+    width: 100%;
+    /* height: 250px; */
+    /* background-color: orange; */
+    padding: 10px 50px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; */
+}
+.customer-content *{
+    margin: 0;
+}
+.customer-content p{
+    font-family: "Playwrite CU", system-ui;
+    color: #222;
+}
+.customer-content h3{
+    font-family: "Moderustic", sans-serif;
+    font-size: 1.9rem;
+}
+.customer-review p{
+    /* background-color: red; */
+    color: #222;
+    text-align: start;
+    padding: 5px;
+}
+
+/* swiper css  */
+ html,
+ body {
+     position: relative;
+     height: 100%;
+ }
+
+ body {
+     background: #eee;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color: #000;
+     margin: 0;
+     padding: 0;
+ }
+
+ .swiper {
+     width: 40%;
+     height: 100%;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #e788434f;
+     
+ }
+
+ .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ .img-content{
+    /* background-color: plum; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2px 10px;
+ }
+ .customer-img-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+ }
+  .customer-img-name h4{
+    font-size: 1.2rem;
+    color: #222;
+    text-align: start;
+  }
+   .customer-img-name p{
+    font-size: 1rem;
+    color: #222;
+    text-align: start;
+   }
+ .customer-img-name *{
+    margin: 0;
+ }
+ .customer-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+   
+ }
+/* swiper css  */
