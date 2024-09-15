@@ -50,11 +50,9 @@
        background-color: #da755554;
        transition: 0.3s;
    }
-   .hero-content p{
-    font-size: 14px;
-   }
+   
    .hero-img p{
-    font-size: 5px;
+    font-size: 5rem;
    }
    .hero-img{
     display: flex;
@@ -71,3 +69,4 @@
             display: block;
         }
 }
+

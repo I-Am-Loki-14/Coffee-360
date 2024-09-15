@@ -128,10 +128,52 @@ header{
     width: 100px;
     padding: 10px;
     cursor: pointer;
+    flex: 1;
     /* background-color: plum; */
 }
 .hero-img-content p{
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #222;
+}
+.coffee-section{
+    padding: 20px;
+    background-color: #dca7969e;
+   
+}
+.coffee-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+.coffee-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.coffee-container{
+    width: 230px;
+    min-height: 400px;
+    /* border: 1px solid #222; */
+    border-radius: 5px;
+    padding:5px 5px;
+    background-color: #80808052;
+    flex: 1 1 15rem;
+   
+   
+}
+.coffee-container h4{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.coffee-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
